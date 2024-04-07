@@ -4,28 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee4bb88e-b340-4385-92b0-f5cddd5bf60e" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IDbRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutableDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutableExternally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutableExternallyDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IMutableExternallyEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IOrdered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IOrderedDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/IOrderedEntity.java" afterDir="false" />
+    <list default="true" id="ee4bb88e-b340-4385-92b0-f5cddd5bf60e" name="Changes" comment="Shape calc: scale added, validation implemented in two ways">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,21 +38,60 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Scratch.executor": "Run",
+    "Application.ShapeCalc.executor": "Run",
+    "Java Scratch.Scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alekseykozyrev/IdeaProjects/study/src/main/java/model",
+    "last_opened_file_path": "/Users/alekseykozyrev/IdeaProjects/study/src/main/java/ru/itfb/shapes",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ru/itfb/shapes" />
+      <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
       <recent name="$PROJECT_DIR$/src/main/java/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="model" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.ShapeCalc">
+    <configuration name="ShapeCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.itfb.ShapeCalc" />
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.itfb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <module name="study" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/Shape_calc_opt_safe.java" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ShapeCalc" />
+      <item itemvalue="Java Scratch.Scratch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShapeCalc" />
+        <item itemvalue="Java Scratch.Scratch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -88,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710171002480</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="model v1">
+      <option name="closed" value="true" />
+      <created>1710507548619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710507548619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Shape calc: scale added, validation implemented in two ways">
+      <option name="closed" value="true" />
+      <created>1712513091501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712513091501</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="model v1" />
+    <MESSAGE value="Shape calc: scale added, validation implemented in two ways" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shape calc: scale added, validation implemented in two ways" />
   </component>
 </project>
