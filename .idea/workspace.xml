@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4bb88e-b340-4385-92b0-f5cddd5bf60e" name="Changes" comment="Shape calc: scale added, validation implemented in two ways">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Scratch.executor": "Run",
-    "Application.ShapeCalc.executor": "Run",
+    "Application.ShapeCalc.executor": "Debug",
     "Java Scratch.Scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -133,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712513091501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Shape calc: scale added, validation implemented in two ways">
+      <option name="closed" value="true" />
+      <created>1712513382267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712513382267</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Shape calc: scale added, validation implemented in two ways">
+      <option name="closed" value="true" />
+      <created>1712513535525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712513535525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,5 +167,16 @@
     <MESSAGE value="model v1" />
     <MESSAGE value="Shape calc: scale added, validation implemented in two ways" />
     <option name="LAST_COMMIT_MESSAGE" value="Shape calc: scale added, validation implemented in two ways" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

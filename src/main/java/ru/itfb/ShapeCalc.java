@@ -279,15 +279,14 @@ class ShapeCalc {
                 IllegalAccessException.class,
                 InvocationTargetException.class})
         public <T extends Shape> T createShape(@NotNull Class<T> clazz, @NotNull List<? extends Number> params) {
-            final int paramsNumber = params.size();
             final Class<?>[] paramTypes = params.stream()
                     .map(Object::getClass)
                     .toArray(Class<?>[]::new);
-            final List<? extends Number> validParams = params.stream()
+            final var validParams = params.stream()
                     .map(this::checkAndAbs)
-                    .toList();
+                    .toArray(Number[]::new);
             return clazz.getDeclaredConstructor(paramTypes)
-                    .newInstance((Object[]) validParams.toArray(new Number[paramsNumber]));
+                    .newInstance((Object[]) validParams);
         }
 
         @NotNull
