@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4bb88e-b340-4385-92b0-f5cddd5bf60e" name="Changes" comment="Shape calc: scale added, validation implemented in two ways">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/CriticalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NonCriticalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/ShapeApplicationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java" afterDir="false" />
     </list>
@@ -38,23 +41,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Scratch.executor": "Run",
-    "Application.ShapeCalc.executor": "Debug",
+    "Application.ShapeCalc.executor": "Run",
     "Java Scratch.Scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alekseykozyrev/IdeaProjects/study/src/main/java/ru/itfb/shapes",
+    "last_opened_file_path": "/Users/alekseykozyrev/IdeaProjects/study/src/main/java/exception",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/exception" />
       <recent name="$PROJECT_DIR$/src/main/java/ru/itfb/shapes" />
       <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
       <recent name="$PROJECT_DIR$/src/main/java/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exception" />
       <recent name="model" />
     </key>
   </component>
@@ -148,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712513535525</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Shape calc: scale added, validation implemented in two ways">
+      <option name="closed" value="true" />
+      <created>1712514403279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712514403279</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,16 +180,5 @@
     <MESSAGE value="model v1" />
     <MESSAGE value="Shape calc: scale added, validation implemented in two ways" />
     <option name="LAST_COMMIT_MESSAGE" value="Shape calc: scale added, validation implemented in two ways" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/itfb/ShapeCalc.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
